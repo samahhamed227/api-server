@@ -22,10 +22,11 @@
 - Unit Tests: npm run test
 
 ### UML
-![status](./images/uml.png)
+![](uml1.png)
 
 ### Notes
-- pull request : 
+- pull request : https://github.com/samahhamed227/api-server/pulls?q=is%3Apr+is%3Aclosed 
+
 - How do I install the app or library?
   - Clone the repo to your local machine
   - in the terminal, `run npm i`
