@@ -3,11 +3,11 @@
 ## api-server
 
 ### Deployment Link
-- https://api-serverr.herokuapp.com/food
+- https://samah-api-server.herokuapp.com/food
 
 ### Author: Samah Hamed
  - [test report](https://github.com/samahhamed227/api-server)
- - [front end]()
+ - [front end](https://samah-api-server.herokuapp.com/)
 
 ### Setup
 - .env requirements
@@ -29,8 +29,8 @@
 - How do I install the app or library?
   - Clone the repo to your local machine
   - in the terminal, `run npm i`
-  - Create `.env` file with port name as the one in the `env samples` 
-  - Create database called `lab4` 
+  - Create `.env` file with port name  
+  - Create database called `peopledb` 
   - Seed the database for the food model with post request 
   - send in the body for the post request foodType and foodName  
   - Seed the database for the clothes model with post request 
