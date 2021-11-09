@@ -16,7 +16,8 @@ clothesSchema.belongsTo(foodSchema, { foreignKey:'clothesId', sourceKey:'id' });
 
 const foodCollection = new Collection(foodSchema);
 const clothesCollection = new Collection (clothesSchema);
-
+const DATABASE_CONFIG = process.env.NODE_ENV === 'production' ?  {dialectOptions: {ssl: {require: true, rejectUnauthorized: false}}}: {}
+const sequelize = new Sequelize(DATABASE_URL, DATABASE_CONFIG);
 module.exports={
   foodCollection:foodCollection,
   clothesCollection:clothesCollection,
